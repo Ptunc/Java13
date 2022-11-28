@@ -25,6 +25,6 @@ public class java13 {
         else if((ay == 12 && gun >= 22) || (ay == 1 && gun <= 21)) System.out.println("Oğlak");
         else if((ay == 1 && gun >= 22) || (ay == 2 && gun <= 19)) System.out.println("Kova");
         else if((ay == 2 && gun >= 20) || (ay == 3 && gun <= 20)) System.out.println("Balık");
-
+        input.close();
     }
 }
